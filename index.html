@@ -3,66 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HAFIZH MAULANA ALRAMZY · CV</title>
-<meta name="description" content="Online CV of [HAFIZH MAULANA ALRAMZY]">
+<title>Hafizh Maulana Alramzy · CV</title>
+<meta name="description" content="Online CV of Hafizh Maulana Alramzy, Electrical Engineering student focusing on Power Electronics">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-body{margin:0;background:#FFFFFF}
+/* ===== Base (desktop) ===== */
+*{box-sizing:border-box}
+body{margin:0;background:#FFFFFF;font-family:Inter,system-ui,sans-serif;color:#18181B;font-size:15px;line-height:1.6;-webkit-text-size-adjust:100%}
 a{color:#1F3FBF;text-decoration:none}a:hover{color:#142C8A;text-decoration:underline}
 ul{margin:0;padding-left:18px}
 li{margin:0 0 6px}
-@media print{a[href="#"]{display:none!important}}
+h1,h2,h3,p{margin:0}
+
+.page{padding:72px 24px 96px}
+main{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+
+/* Header */
+header{display:flex;flex-direction:column;gap:16px;padding-bottom:40px;border-bottom:1px solid #E4E4E7}
+.identity{display:flex;align-items:center;gap:24px}
+.photo{width:120px;height:120px;flex-shrink:0;border-radius:50%;object-fit:cover}
+.name-block{display:flex;flex-direction:column;gap:8px;min-width:0}
+h1{font-size:44px;line-height:1.1;font-weight:700;letter-spacing:-0.02em}
+.role{font-size:19px;font-weight:500;color:#1F3FBF}
+.contacts{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:14px;color:#52525B}
+.contacts a{color:#52525B}.contacts a:hover{color:#1F3FBF}
+.actions{display:flex;flex-wrap:wrap;gap:12px;padding-top:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none}
+.btn:hover{text-decoration:none}
+.btn-primary{background:#1F3FBF;color:#FFFFFF}.btn-primary:hover{background:#142C8A;color:#FFFFFF}
+.btn-outline{border:1px solid #D4D4D8;color:#18181B}.btn-outline:hover{border-color:#1F3FBF;color:#1F3FBF}
+
+/* Sections: label on the left, content on the right */
+section{display:grid;grid-template-columns:160px minmax(0,1fr);gap:8px 40px}
+section h2{font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#52525B;padding-top:3px}
+.stack{display:flex;flex-direction:column;gap:32px}
+.stack-sm{display:flex;flex-direction:column;gap:10px}
+.item{display:flex;flex-direction:column;gap:8px}
+.item-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px}
+h3{font-size:16px;font-weight:600;line-height:1.4}
+.date{font-size:14px;color:#52525B;white-space:nowrap}
+.meta{font-size:14px;color:#52525B}
+.langs{display:flex;flex-wrap:wrap;gap:8px 32px}
+strong{font-weight:600}
+footer{padding-top:32px;border-top:1px solid #E4E4E7;font-size:13px;color:#52525B}
+
+/* ===== Tablet (≤ 900px) ===== */
+@media (max-width:900px){
+  .page{padding:56px 32px 72px}
+  main{gap:44px}
+  h1{font-size:36px}
+  .role{font-size:17px}
+  section{grid-template-columns:130px minmax(0,1fr);gap:8px 28px}
+}
+
+/* ===== Phone (≤ 600px) ===== */
+@media (max-width:600px){
+  body{font-size:14.5px}
+  .page{padding:32px 20px 56px}
+  main{gap:36px}
+  header{padding-bottom:28px;gap:14px}
+  .identity{flex-direction:column;align-items:flex-start;gap:16px}
+  .photo{width:88px;height:88px}
+  h1{font-size:28px;letter-spacing:-0.01em}
+  .role{font-size:15.5px}
+  .contacts{flex-direction:column;gap:6px}
+  .actions .btn{flex:1 1 140px}
+  section{grid-template-columns:minmax(0,1fr);gap:12px}
+  section h2{padding-top:0;padding-bottom:6px;border-bottom:1px solid #E4E4E7}
+  .stack{gap:24px}
+  .item-head{flex-direction:column;gap:2px}
+  .langs{flex-direction:column;gap:4px}
+}
+
+/* ===== Print ===== */
+@media print{
+  .actions{display:none!important}
+  .page{padding:0}
+}
 </style>
 </head>
 <body>
-<div style="font-family: Inter, system-ui, sans-serif; color: #18181B; background: #FFFFFF; min-height: 100vh; box-sizing: border-box; padding: 72px 24px 96px; font-size: 15px; line-height: 1.6">
-<main style="max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
+<div class="page">
+<main>
 
-<header style="display: flex; flex-direction: column; gap: 16px; padding-bottom: 40px; border-bottom: 1px solid #E4E4E7">
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px">
-<img src="foto1.jpeg" alt="Photo of Hafizh Maulana Alramzy" style="width: 112px; height: 120px; border-radius: 50%; object-fit: cover; border: 0px solid #E4E4E7">
-<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0">
-<h1 style="margin: 0; font-size: 44px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">HAFIZH MAULANA ALRAMZY</h1>
-<p style="margin: 0; font-size: 19px; font-weight: 500; color: #1F3FBF">Electrical Engineering Student, focusing on Power Electronics</p>
+<header>
+<div class="identity">
+<img class="photo" src="foto1.jpeg" alt="Photo of Hafizh Maulana Alramzy">
+<div class="name-block">
+<h1>HAFIZH MAULANA ALRAMZY</h1>
+<p class="role">Electrical Engineering Student, focusing on Power Electronics</p>
 </div>
-</div><div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; color: #52525B">
+</div>
+<div class="contacts">
 <span>Bandung, Indonesia</span>
 <a href="mailto:bjmpianis@gmail.com">bjmpianis@gmail.com</a>
 <!--<span>+62 000 0000 0000</span>-->
-<a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer">linkedin.com/in/hafizhalramzy16</a>
-<a href="https://instagtram.com/hfxal_">Instagram: @hfxal_</a>
+<a href="https://www.linkedin.com/in/hafizhalramzy16" target="_blank" rel="noopener noreferrer">linkedin.com/in/hafizhalramzy16</a>
+<a href="https://www.instagram.com/hfxal_" target="_blank" rel="noopener noreferrer">Instagram: @hfxal_</a>
 </div>
-<div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 8px">
-<a href="cv.pdf" download="CV-Hafizh-Maulana-Alramzy.pdf" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 8px; background: #1F3FBF; color: #FFFFFF; font-size: 14px; font-weight: 600; text-decoration: none">Download PDF</a>
-<!--<a href="https://wa.me/6200000000000?text=Halo%20kak%20Hafizh%21%20Saya%20tertarik%20dengan%20CV%20kakaknya%20dan%20ingin%20mengetahui%20tentang%20kak%20Hafizh%20lebih%20lanjut..." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 8px; border: 1px solid #D4D4D8; color: #18181B; font-size: 14px; font-weight: 600; text-decoration: none">Contact me</a></div>-->
+<div class="actions">
+<a class="btn btn-primary" href="cv.pdf" download="CV-Hafizh-Maulana-Alramzy.pdf">Download PDF</a>
+<!--<a class="btn btn-outline" href="https://wa.me/6200000000000?text=Halo%20kak%20Hafizh%21%20Saya%20tertarik%20dengan%20CV%20kakaknya%20dan%20ingin%20mengetahui%20tentang%20kak%20Hafizh%20lebih%20lanjut..." target="_blank" rel="noopener">Contact me</a>-->
+</div>
 </header>
 
-<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Summary</h2>
-<p style="flex: 999 1 480px; min-width: 0; margin: 0">Master's student in Electrical Engineering at Institut Teknologi Bandung (ITB), specialising in power electronics with a focus on power converter design and analysis. I bring hands-on experience as a Computational Lab Assistant at Universitas Mulawarman, where I guided students through lab sessions, along with a year of practical work maintaining electrical systems as a Store Technician. I'm seeking research or engineering opportunities in power electronics and energy systems where I can apply both my technical foundation and my problem-solving skills to real-world challenges.</p>
+<section>
+<h2>Summary</h2>
+<p>Master's student in Electrical Engineering at Institut Teknologi Bandung (ITB), specialising in power electronics with a focus on power converter design and analysis. I bring hands-on experience as a Computational Lab Assistant at Universitas Mulawarman, where I guided students through lab sessions, along with a year of practical work maintaining electrical systems as a Store Technician. I'm seeking research or engineering opportunities in power electronics and energy systems where I can apply both my technical foundation and my problem-solving skills to real-world challenges.</p>
 </section>
 
-<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Experience</h2>
-<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 32px">
-<div style="display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">Store Technician · ACE Hardware</h3>
-<span style="font-size: 14px; color: #52525B">Oct 2022 – Oct 2023</span>
+<section>
+<h2>Experience</h2>
+<div class="stack">
+<div class="item">
+<div class="item-head">
+<h3>Store Technician · ACE Hardware</h3>
+<span class="date">Oct 2022 – Oct 2023</span>
 </div>
-<span style="font-size: 14px; color: #52525B">Samarinda, East Kalimantan, Indonesia · Full-time · On-site</span>
+<span class="meta">Samarinda, East Kalimantan, Indonesia · Full-time · On-site</span>
 <ul>
 <li>Responsible for maintaining and repairing store infrastructure, including lighting, plumbing, flooring, air conditioning, and the electrical system, ensuring a safe and operational environment.</li>
 <li>Assess customer product complaints to determine whether items are partially or fully defective, and manage the repair or replacement process by coordinating with the service center and maintaining accurate documentation.</li>
 </ul>
 </div>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">Teaching Assistant · Universitas Mulawarman</h3>
-<span style="font-size: 14px; color: #52525B">Jul 2018 – Dec 2018</span>
+<div class="item">
+<div class="item-head">
+<h3>Teaching Assistant · Universitas Mulawarman</h3>
+<span class="date">Jul 2018 – Dec 2018</span>
 </div>
-<span style="font-size: 14px; color: #52525B">Samarinda, East Kalimantan, Indonesia · Part-time · On-site</span>
+<span class="meta">Samarinda, East Kalimantan, Indonesia · Part-time · On-site</span>
 <ul>
 <li>Assisted the lecturer during Distributed Database (Computer Lab) sessions, helping students understand module content and solve coding challenges.</li>
 <li>Provided hands-on support for programming tasks, including debugging, error resolution, and clarifying technical concepts.</li>
@@ -72,122 +142,119 @@ li{margin:0 0 6px}
 </div>
 </section>
 
-<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Education</h2>
-<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
-
-<div style="display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">Master's Degree, Electrical and Electronics Engineering</h3>
-<span style="font-size: 14px; color: #52525B">Aug 2026 – Present</span>
+<section>
+<h2>Education</h2>
+<div class="stack">
+<div class="item">
+<div class="item-head">
+<h3>Master's Degree, Electrical and Electronics Engineering</h3>
+<span class="date">Aug 2026 – Present</span>
 </div>
-<span style="font-size: 14px; color: #52525B">Institut Teknologi Bandung · Bandung, Indonesia</span>
+<span class="meta">Institut Teknologi Bandung · Bandung, Indonesia</span>
 <ul>
 <li>Research focus: Power Electronics</li>
 <!-- <li>Thesis: [Thesis title]</li> -->
 <!-- <li>Relevant coursework: [Course 1, Course 2, …]</li> -->
 </ul>
 </div>
-
-<div style="display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">Bachelor's Degree, Electrical and Electronics Engineering</h3>
-<span style="font-size: 14px; color: #52525B">Sep 2014 – Jul 2020</span>
+<div class="item">
+<div class="item-head">
+<h3>Bachelor's Degree, Electrical and Electronics Engineering</h3>
+<span class="date">Sep 2014 – Jul 2020</span>
 </div>
-<span style="font-size: 14px; color: #52525B">Universitas Mulawarman · Samarinda, Indonesia</span>
+<span class="meta">Universitas Mulawarman · Samarinda, Indonesia</span>
 <ul>
 <li>GPA: 3.42 / 4.00</li>
 <!-- <li>Thesis: [Bachelor's thesis title]</li> -->
 </ul>
 </div>
-
 <!--
-<div style="display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">High School Diploma, Natural Sciences</h3>
-<span style="font-size: 14px; color: #52525B">Jul 2011 – May 2014</span>
+<div class="item">
+<div class="item-head">
+<h3>High School Diploma, Natural Sciences</h3>
+<span class="date">Jul 2011 – May 2014</span>
 </div>
-<span style="font-size: 14px; color: #52525B">SMA Negeri 3 Samarinda · Samarinda, Indonesia</span>
+<span class="meta">SMA Negeri 3 Samarinda · Samarinda, Indonesia</span>
 </div>
 -->
-
 </div>
 </section>
 
-<!--<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Projects</h2>
-<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
-<div style="display: flex; flex-direction: column; gap: 4px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">[Project Name]</h3>
-<span style="font-size: 14px; color: #52525B">[YYYY]</span>
+<!--
+<section>
+<h2>Projects</h2>
+<div class="stack">
+<div class="item">
+<div class="item-head">
+<h3>[Project Name]</h3>
+<span class="date">[YYYY]</span>
 </div>
-<p style="margin: 0">[One or two lines: the problem, your role, the tools or methods used, and the result.] <a href="https://">[Link]</a></p>
-</div>
-<div style="display: flex; flex-direction: column; gap: 4px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
-<h3 style="margin: 0; font-size: 16px; font-weight: 600">[Project Name]</h3>
-<span style="font-size: 14px; color: #52525B">[YYYY]</span>
-</div>
-<p style="margin: 0">[One or two lines: the problem, your role, the tools or methods used, and the result.] <a href="https://">[Link]</a></p>
+<p>[One or two lines: the problem, your role, the tools or methods used, and the result.] <a href="https://">[Link]</a></p>
 </div>
 </div>
-</section>-->
+</section>
+-->
 
-<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Skills</h2>
-<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
-<p style="margin: 0"><strong style="font-weight: 600">Electrical:</strong> Building electrical system maintenance and repair, lighting, air conditioning, troubleshooting</p>
-<p style="margin: 0"><strong style="font-weight: 600">Technical:</strong> Programming support and debugging, databases (Distributed Database)</p>
-<p style="margin: 0"><strong style="font-weight: 600">Professional:</strong> Teaching and mentoring, technical documentation, vendor and service-center coordination</p>
+<section>
+<h2>Skills</h2>
+<div class="stack-sm">
+<p><strong>Electrical:</strong> Building electrical system maintenance and repair, lighting, air conditioning, troubleshooting</p>
+<p><strong>Technical:</strong> Programming support and debugging, databases (Distributed Database)</p>
+<p><strong>Professional:</strong> Teaching and mentoring, technical documentation, vendor and service-center coordination</p>
 </div>
 </section>
 
-<!--<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Certifications</h2>
-<ul style="flex: 999 1 480px; min-width: 0">
+<!--
+<section>
+<h2>Certifications</h2>
+<ul>
 <li>[Certification Name] · [Issuing Organisation] · [MMM YYYY] · ID [credential ID]</li>
-<li>[Certification Name] · [Issuing Organisation] · [MMM YYYY]</li>
 </ul>
-</section>-->
+</section>
+-->
 
-<!--<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Leadership &amp; Activities</h2>
-<ul style="flex: 999 1 480px; min-width: 0">
-<li>[Role, e.g. Teaching Assistant, Power Electronics Lab] · [Organisation] · [YYYY – YYYY]: [what you did]</li>
+<!--
+<section>
+<h2>Leadership &amp; Activities</h2>
+<ul>
 <li>[Role] · [Organisation / Club / Volunteer work] · [YYYY]: [what you did]</li>
 </ul>
-</section>-->
+</section>
+-->
 
-<!--<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Awards</h2>
-<ul style="flex: 999 1 480px; min-width: 0">
+<!--
+<section>
+<h2>Awards</h2>
+<ul>
 <li>[Award / Scholarship / Competition result] · [Awarding body] · [YYYY]</li>
 </ul>
-</section>-->
+</section>
+-->
 
-<!--<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Publications</h2>
-<ul style="flex: 999 1 480px; min-width: 0">
+<!--
+<section>
+<h2>Publications</h2>
+<ul>
 <li>[Author(s)], "[Paper title]," <em>[Conference / Journal]</em>, [YYYY]. <a href="https://">[DOI]</a></li>
 </ul>
-</section>-->
+</section>
+-->
 
-<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">Languages</h2>
-<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-wrap: wrap; gap: 8px 32px">
-<span><strong style="font-weight: 600">Indonesian</strong> · Native</span>
-<span><strong style="font-weight: 600">English</strong> · B2</span>
-<span><strong style="font-weight: 600">German</strong> · A1</span>
+<section>
+<h2>Languages</h2>
+<div class="langs">
+<span><strong>Indonesian</strong> · Native</span>
+<span><strong>English</strong> · B2</span>
+<span><strong>German</strong> · A1</span>
 </div>
 </section>
 
-<section style="display: flex; flex-wrap: wrap; gap: 8px 40px">
-<h2 style="flex: 1 1 160px; margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #52525B; padding-top: 3px">References</h2>
-<p style="flex: 999 1 480px; min-width: 0; margin: 0">Available upon request.</p>
+<section>
+<h2>References</h2>
+<p>Available upon request.</p>
 </section>
 
-<footer style="padding-top: 32px; border-top: 1px solid #E4E4E7; font-size: 13px; color: #52525B">Last updated November 2026</footer>
+<footer>Last updated November 2026</footer>
 </main>
 </div>
 </body>
